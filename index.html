@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <!-- My CSS Link -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <title>ZettaCamp</title>
+  </head>
+  <body>
+    <div class="utama">
+      <!-- Card Main -->
+      <div class="card-main">
+        <!-- head -->
+        <div class="head">
+          <div class="head-content">
+            <div class="head-image">
+              <img src="img/profile1.png" alt="" />
+              <div class="head-content-text">
+                <p class="fw-medium"><span class="text-primary">Garry Newman</span> posted on your timeline</p>
+                <p class="fw-light text-black-50">32 minutes ago</p>
+              </div>
+            </div>
+            <div class="dropdown">
+              <a href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i data-feather="more-vertical"></i></a>
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Save</a></li>
+                <li><a class="dropdown-item" href="#">About</a></li>
+                <li>
+                  <a class="dropdown-item" href="#"><span class="text-danger">Report post</span></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="text">
+            <p>Remember the place we were talking about the other night? Found it!</p>
+          </div>
+        </div>
+        <!-- head end -->
+      </div>
+      <!-- Card Main End -->
+      <!-- Img -->
+      <div class="img">
+        <div class="img-head">
+          <img src="img/content.jpg" class="img-fluid" alt="" />
+        </div>
+        <div class="img-logo">
+          <p><i class="fa fa-heart"></i><span class="ms-2">Like (5)</span></p>
+          <div class="dropdown img-dropdown">
+            <a class="share" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i data-feather="share-2" class="light"></i></a>
+            <p class="ms-2">Share (21)</p>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Friend</a></li>
+              <li><a class="dropdown-item" href="#">Other</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Stories</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Img end -->
+      <!-- Comentar -->
+      <div class="comments">
+        <div class="comment">
+          <p>1 comments <i data-feather="chevron-down"></i></p>
+        </div>
+        <div class="comment-text">
+          <img src="img/profile2.jpg" alt="" />
+          <div class="head-content-text">
+            <p class="fw-medium text-body-emphasis">Alice Freeman <span class="fw-light text-black-50">June 10, 2018</span></p>
+            <p class="fw-normal comment-justify">
+              That's a wonderfull place. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fusce et eleifend ligua. Fusce posuere in sapien ac facilisis. Etiam sit amet justo non felis ornare feugiat.
+            </p>
+            <p class="mt-3"><span class="text-info fw-medium reply">Reply</span> <i data-feather="flag" class="ms-3 flag"></i></p>
+          </div>
+        </div>
+        <div class="comment-input">
+          <img src="img/profile3.jpg" alt="" />
+          <div class="comment-head">
+            <textarea rows="5" class="ms-2" placeholder="Add a comment..."></textarea>
+            <button class="ms-2 bg-primary" type="submit">Post Comment</button>
+          </div>
+        </div>
+      </div>
+      <!-- Comentar End -->
+    </div>
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <!-- Feather Icons Script -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
